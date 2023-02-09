@@ -1,0 +1,32 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+/*Jumbotron*/
+.jumbotron {
+	background-image: url(foto_produk/gambar.jpeg);
+	background-size: cover;
+	height: 800px;
+	width: 500%;
+	color: black;
+}
+
+.jumbotron .display-4 {
+	margin-top: 30px;
+}
+
+.jumbotron p {
+	font-size: 23px;
+}
+
+.jumbotron hr {
+	border-color: white;
+	width: 400px;
+	border-width: 3px;
+}
+/*Akhir Jumbotron*/
