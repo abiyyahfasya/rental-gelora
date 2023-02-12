@@ -93,7 +93,8 @@ include 'koneksi.php';
 						<h5>Rp. <?php echo number_format($perproduk['harga']); ?></h5>
 						<h6><?php echo $perproduk['deskripsi_motor']; ?></h6>
 						<h5>Stok : <?php echo $perproduk['stok_motor'] ?></h5>
-						<a href="pesan.php?id=<?php echo $perproduk['id_motor']; ?>" class="btn btn-primary">Pesan</a>
+						<!-- code here -->
+						<a href="" class="btn btn-primary">Pesan</a>
 						<!--<a href="detail.php?id=<?php echo $perproduk["id_produk"]; ?>" class="btn btn-default">Detail</a>!-->
 
 					</div>

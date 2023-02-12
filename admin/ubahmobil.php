@@ -1,6 +1,6 @@
 <h2>Ubah Motor</h2>
 <?php
-$ambil = $koneksi->query("SELECT * FROM produk WHERE id_mobil='$_GET[id]'");
+$ambil = $koneksi->query("SELECT * FROM produk WHERE id_motor='$_GET[id]'");
 $pecah = $ambil->fetch_assoc();
 
 // echo "<pre>";
