@@ -105,10 +105,10 @@ if (!isset($_SESSION["member"]))
 			// mendapatkan id_pembelian barusan terjadi
 			$id_pembelian_barusan = $koneksi->insert_id;
 
-			foreach ($_SESSION["booking"] as $id_mobil => $jumlah)
+			foreach ($_SESSION["booking"] as $id_motor => $jumlah)
 			{
 
-				// mendapatkan data produk berdasarkan id_mobil
+				// mendapatkan data produk berdasarkan id_motor
 				$ambil=$koneksi->query("SELECT * FROM produk WHERE id_motor='$id_motor'");
 				$perproduk = $ambil->fetch_assoc();
 
@@ -124,7 +124,7 @@ if (!isset($_SESSION["member"]))
 
 
 				// script update stok
-				$koneksi->query("UPDATE produk SET stok_mobil=stok_mobil -$jumlah WHERE id_motor='$id_motor'");
+				$koneksi->query("UPDATE produk SET stok_motor=stok_motor -$jumlah WHERE id_motor='$id_motor'");
 			}
 
 			// mengkosongkan  data bookingan

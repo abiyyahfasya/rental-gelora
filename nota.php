@@ -78,16 +78,16 @@ $detail = $ambil->fetch_assoc();
 </table>
 
 <div class="row">
-	<div class="col-md-7">
+	
+</div>
+<div class="col-md-7">
 		<div class="alert alert-info">
 			<p>
 				Silahkan Melakukan Pembayaran Melalui COD "MOHON UNTUK DI SCREENSHOT" Sebagai bukti Bookingan <br>
-				<strong>DAN Datang ke RENTAL AGUS JAYA Sesuai Pembayaran  </strong>
+				<strong>DAN Datang ke RENTAL GLORA JAYA Sesuai Pembayaran  </strong>
 			</p>
 		</div>
 	</div>
-</div>
-
 
 	</div>
 </section>

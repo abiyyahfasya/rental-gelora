@@ -1,18 +1,18 @@
 <?php
 session_start();
 //mendapatkan id_produk dari url
-$id_mobil = $_GET['id'];
+$id_motor = $_GET['id'];
 
 
 // jika sudah ada produk itu dibooking, maka produk itu jumlahnya di +1
-if(isset($_SESSION['booking'][$id_mobil]))
+if(isset($_SESSION['booking'][$id_motor]))
 {
-	$_SESSION['booking'][$id_mobil]+=1;
+	$_SESSION['booking'][$id_motor]+=1;
 }
 // selain itu (belum ada di booking), maka produk itu dianggap sudah dibeli 1
 else
 {
-	$_SESSION['booking'][$id_mobil] = 1;
+	$_SESSION['booking'][$id_motor] = 1;
 }
 
 

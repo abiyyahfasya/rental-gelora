@@ -28,6 +28,7 @@ if (!isset($_SESSION['admin']))
     <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
         <!-- CUSTOM STYLES-->
     <link href="assets/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <!-- GOOGLE FONTS-->
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
@@ -59,7 +60,7 @@ font-size: 16px;">Gelora Rental Motor &nbsp; <a href ="" class= "btn btn-danger 
 					
                     <li><a href="index.php"><i class="fa fa-home"></i> Admin</a></li>
                     <li><a href="index.php?halaman=kategori"><i class="fa fa-cube"></i> Kategori</a></li>
-                    <li><a href="index.php?halaman=produk"><i class="fa fa-car"></i> Motor</a></li>
+                    <li><a href="index.php?halaman=produk"><i class="fa fa-motorcycle"></i> Motor</a></li>
                     <li><a href="index.php?halaman=pembelian"><i class="fa fa-file"></i> Reservasi</a></li>
                     <li><a href="index.php?halaman=laporan_pembelian"><i class="fa fa-file"></i> Laporan</a></li>
                     <li><a href="index.php?halaman=pelanggan"><i class="fa fa-user"></i> Member</a></li>

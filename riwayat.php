@@ -35,7 +35,7 @@ if (!isset($_SESSION["member"]) OR empty($_SESSION["member"]))
 					<th>No</th>
 					<th>Tanggal Sewa</th>
 					<th>No Polisi</th>
-					<th>Merk Mobil</th>
+					<th>Merk Motor</th>
 					<th>No Telpon</th>
 				
 					<th>Total</th>
@@ -55,7 +55,7 @@ if (!isset($_SESSION["member"]) OR empty($_SESSION["member"]))
 					<td><?php echo $nomor; ?></td>
 					<td><?php echo $pecah["tanggal_sewa"] ?></td>
 					<td><?php echo $pecah["No_polisi"] ?></td>
-					<td><?php echo $pecah["merk_mobil"] ?></td>
+					<td><?php echo $pecah["merk_motor"] ?></td>
 					<td><?php echo $pecah["No_telpon"] ?></td>
 				
 					<!--<td>
