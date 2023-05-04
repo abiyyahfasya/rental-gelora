@@ -13,7 +13,7 @@ include 'koneksi.php';
 	<link rel="stylesheet" href="admin/assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
 
-	<title>Gelora Rental Motor</title>
+	<title>Gelora Rental Mtr</title>
 </head>
 <body>
 
